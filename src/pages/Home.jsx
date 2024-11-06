@@ -1,6 +1,7 @@
 import { Zap, Cpu, Gauge, Linkedin } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import swapnilImage from '../assets/Swapnil_new.jpg';
+import { Link } from 'react-router-dom';
 
 const features = [
   {
@@ -44,12 +45,18 @@ export default function Home() {
             >
               Get Started
             </a>
-            <a 
-              href="/why-render"
+            <Link 
+              to="/why-render"
               className="px-8 py-3 bg-gray-200 dark:bg-gray-800 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-700 transition-colors"
             >
               Learn More
-            </a>
+            </Link>
+            {/* <a 
+              href="https://rendernow.netlify.app/why-render"
+              className="px-8 py-3 bg-gray-200 dark:bg-gray-800 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-700 transition-colors"
+            >
+              Learn More
+            </a> */}
           </div>
         </div>
       </section>
