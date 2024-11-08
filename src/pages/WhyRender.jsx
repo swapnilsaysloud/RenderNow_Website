@@ -12,7 +12,7 @@ export default function WhyRender() {
         <div className="aspect-w-16 aspect-h-9 mb-12">
           <iframe
             className="w-full h-[500px] rounded-xl"
-            src="https://youtu.be/9JNqn3ex1MM"
+            src="https://www.youtube.com/embed/9JNqn3ex1MM"
             title="Why Choose renderNow"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
